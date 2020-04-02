@@ -1,9 +1,11 @@
-from PySide2.QtGui import QImage, qRgb
 import numpy as np
+from PySide2.QtGui import QImage, qRgb
 
 # https://gist.github.com/smex/5287589
 
 gray_color_table = [qRgb(i, i, i) for i in range(256)]
+
+
 def to_QImage(im, copy=False):
     if im is None:
         return QImage()
