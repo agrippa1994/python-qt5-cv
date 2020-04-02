@@ -1,0 +1,7 @@
+altgraph==0.17
+macholib==1.14
+numpy==1.18.2
+opencv-python-headless==4.2.0.32
+PyInstaller==3.6
+PySide2==5.14.2
+shiboken2==5.14.2
